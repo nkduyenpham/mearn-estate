@@ -26,7 +26,7 @@ connectDB();
 
 // Define routes
 app.use("/api/user", userRouter);
-app.use("/api/auth", authRouter);
+app.use("/api/auth", authRouter); 
 
 // Start server
 const PORT = process.env.PORT || 3000;
